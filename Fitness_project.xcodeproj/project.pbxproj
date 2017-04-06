@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6380C6581E9579CB00D45964 /* ListaEntrenamientosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6380C6571E9579CB00D45964 /* ListaEntrenamientosTableViewController.m */; };
 		63BCCE461E928ECE00E9B49B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BCCE451E928ECE00E9B49B /* main.m */; };
 		63BCCE491E928ECE00E9B49B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BCCE481E928ECE00E9B49B /* AppDelegate.m */; };
 		63BCCE4C1E928ECE00E9B49B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BCCE4B1E928ECE00E9B49B /* ViewController.m */; };
 		63BCCE4F1E928ECE00E9B49B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BCCE4D1E928ECE00E9B49B /* Main.storyboard */; };
-		63BCCE511E928ECE00E9B49B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63BCCE501E928ECE00E9B49B /* Assets.xcassets */; };
-		63BCCE541E928ECE00E9B49B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BCCE521E928ECE00E9B49B /* LaunchScreen.storyboard */; };
 		63BCCE5F1E928ECE00E9B49B /* Fitness_projectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BCCE5E1E928ECE00E9B49B /* Fitness_projectTests.m */; };
 		63BCCE6A1E928ECE00E9B49B /* Fitness_projectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BCCE691E928ECE00E9B49B /* Fitness_projectUITests.m */; };
+		63E175AD1E9563020009F0B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E175AC1E9563020009F0B7 /* Images.xcassets */; };
+		63E175B01E9567550009F0B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63E175AE1E9567550009F0B7 /* LaunchScreen.xib */; };
+		63E175BB1E9572220009F0B7 /* ListaEjerciciosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E175BA1E9572220009F0B7 /* ListaEjerciciosTableViewController.m */; };
+		63E175BE1E9572EA0009F0B7 /* ListaRutinasTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E175BD1E9572EA0009F0B7 /* ListaRutinasTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6380C6561E9579CB00D45964 /* ListaEntrenamientosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaEntrenamientosTableViewController.h; sourceTree = "<group>"; };
+		6380C6571E9579CB00D45964 /* ListaEntrenamientosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaEntrenamientosTableViewController.m; sourceTree = "<group>"; };
 		63BCCE411E928ECE00E9B49B /* Fitness_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitness_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63BCCE451E928ECE00E9B49B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63BCCE471E928ECE00E9B49B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,8 +47,6 @@
 		63BCCE4A1E928ECE00E9B49B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		63BCCE4B1E928ECE00E9B49B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		63BCCE4E1E928ECE00E9B49B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		63BCCE501E928ECE00E9B49B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		63BCCE531E928ECE00E9B49B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63BCCE551E928ECE00E9B49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63BCCE5A1E928ECE00E9B49B /* Fitness_projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fitness_projectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63BCCE5E1E928ECE00E9B49B /* Fitness_projectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fitness_projectTests.m; sourceTree = "<group>"; };
@@ -51,6 +54,14 @@
 		63BCCE651E928ECE00E9B49B /* Fitness_projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fitness_projectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63BCCE691E928ECE00E9B49B /* Fitness_projectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fitness_projectUITests.m; sourceTree = "<group>"; };
 		63BCCE6B1E928ECE00E9B49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D4EB381E96BDB6007475DC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		63D4EB3A1E96BDC2007475DC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		63E175AC1E9563020009F0B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		63E175AF1E9567550009F0B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		63E175B91E9572220009F0B7 /* ListaEjerciciosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaEjerciciosTableViewController.h; sourceTree = "<group>"; };
+		63E175BA1E9572220009F0B7 /* ListaEjerciciosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaEjerciciosTableViewController.m; sourceTree = "<group>"; };
+		63E175BC1E9572EA0009F0B7 /* ListaRutinasTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaRutinasTableViewController.h; sourceTree = "<group>"; };
+		63E175BD1E9572EA0009F0B7 /* ListaRutinasTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaRutinasTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +92,13 @@
 		63BCCE381E928ECE00E9B49B = {
 			isa = PBXGroup;
 			children = (
+				63BCCE7B1E92A22C00E9B49B /* Controlador */,
+				63BCCE7A1E92A22700E9B49B /* Modelo */,
 				63BCCE431E928ECE00E9B49B /* Fitness_project */,
 				63BCCE5D1E928ECE00E9B49B /* Fitness_projectTests */,
 				63BCCE681E928ECE00E9B49B /* Fitness_projectUITests */,
 				63BCCE421E928ECE00E9B49B /* Products */,
+				63D4EB371E96BDB6007475DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +117,11 @@
 			children = (
 				63BCCE471E928ECE00E9B49B /* AppDelegate.h */,
 				63BCCE481E928ECE00E9B49B /* AppDelegate.m */,
+				63E175AC1E9563020009F0B7 /* Images.xcassets */,
 				63BCCE4A1E928ECE00E9B49B /* ViewController.h */,
 				63BCCE4B1E928ECE00E9B49B /* ViewController.m */,
 				63BCCE4D1E928ECE00E9B49B /* Main.storyboard */,
-				63BCCE501E928ECE00E9B49B /* Assets.xcassets */,
-				63BCCE521E928ECE00E9B49B /* LaunchScreen.storyboard */,
+				63E175AE1E9567550009F0B7 /* LaunchScreen.xib */,
 				63BCCE551E928ECE00E9B49B /* Info.plist */,
 				63BCCE441E928ECE00E9B49B /* Supporting Files */,
 			);
@@ -138,6 +152,35 @@
 				63BCCE6B1E928ECE00E9B49B /* Info.plist */,
 			);
 			path = Fitness_projectUITests;
+			sourceTree = "<group>";
+		};
+		63BCCE7A1E92A22700E9B49B /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Modelo;
+			sourceTree = "<group>";
+		};
+		63BCCE7B1E92A22C00E9B49B /* Controlador */ = {
+			isa = PBXGroup;
+			children = (
+				6380C6561E9579CB00D45964 /* ListaEntrenamientosTableViewController.h */,
+				6380C6571E9579CB00D45964 /* ListaEntrenamientosTableViewController.m */,
+				63E175BC1E9572EA0009F0B7 /* ListaRutinasTableViewController.h */,
+				63E175BD1E9572EA0009F0B7 /* ListaRutinasTableViewController.m */,
+				63E175B91E9572220009F0B7 /* ListaEjerciciosTableViewController.h */,
+				63E175BA1E9572220009F0B7 /* ListaEjerciciosTableViewController.m */,
+			);
+			name = Controlador;
+			sourceTree = "<group>";
+		};
+		63D4EB371E96BDB6007475DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63D4EB3A1E96BDC2007475DC /* MediaPlayer.framework */,
+				63D4EB381E96BDB6007475DC /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +250,7 @@
 				TargetAttributes = {
 					63BCCE401E928ECE00E9B49B = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = DWZ77GEEBY;
 						ProvisioningStyle = Automatic;
 					};
 					63BCCE591E928ECE00E9B49B = {
@@ -246,8 +290,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63BCCE541E928ECE00E9B49B /* LaunchScreen.storyboard in Resources */,
-				63BCCE511E928ECE00E9B49B /* Assets.xcassets in Resources */,
+				63E175AD1E9563020009F0B7 /* Images.xcassets in Resources */,
+				63E175B01E9567550009F0B7 /* LaunchScreen.xib in Resources */,
 				63BCCE4F1E928ECE00E9B49B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +317,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E175BE1E9572EA0009F0B7 /* ListaRutinasTableViewController.m in Sources */,
 				63BCCE4C1E928ECE00E9B49B /* ViewController.m in Sources */,
+				6380C6581E9579CB00D45964 /* ListaEntrenamientosTableViewController.m in Sources */,
 				63BCCE491E928ECE00E9B49B /* AppDelegate.m in Sources */,
 				63BCCE461E928ECE00E9B49B /* main.m in Sources */,
+				63E175BB1E9572220009F0B7 /* ListaEjerciciosTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,12 +366,12 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		63BCCE521E928ECE00E9B49B /* LaunchScreen.storyboard */ = {
+		63E175AE1E9567550009F0B7 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				63BCCE531E928ECE00E9B49B /* Base */,
+				63E175AF1E9567550009F0B7 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -424,6 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DWZ77GEEBY;
 				INFOPLIST_FILE = Fitness_project/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dam.Fitness-project";
@@ -435,6 +483,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DWZ77GEEBY;
 				INFOPLIST_FILE = Fitness_project/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dam.Fitness-project";
@@ -507,6 +556,7 @@
 				63BCCE701E928ECE00E9B49B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63BCCE711E928ECE00E9B49B /* Build configuration list for PBXNativeTarget "Fitness_projectTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +565,7 @@
 				63BCCE731E928ECE00E9B49B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63BCCE741E928ECE00E9B49B /* Build configuration list for PBXNativeTarget "Fitness_projectUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +574,7 @@
 				63BCCE761E928ECE00E9B49B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
